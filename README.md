@@ -2,7 +2,7 @@
 Mixed integer program (MIP) used to schedule meetings between two groups of people. Given a group's availability (i.e., faculty) and the other group's meeting preferences (i.e., ranking of faculty to meet), this program determines how to best schedule such meetings to maximize matching staisfaction.
 
 The matching is performed in two steps. First, two Excel .csv files are read in order to generate dictionaries containing availabilities
-and matching prefences. These two are then used in the MIP mdoel to define constraints and the objective function. (Refer to the example files 
+and matching prefences. These two are then used in the MIP model to define constraints and the objective function. (Refer to the example files 
 in this repo to see what the input data should look like) 
 
 The second step involves formualting and solving the MIP. The user might need to change some parameters based on their needs (i.e., 
